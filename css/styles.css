@@ -506,3 +506,7 @@ color: #434455;
     right: 24px;
     top: 24px;
 }
+.modal-title {
+    text-align: left;
+    max-width: 360px;
+}
