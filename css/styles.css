@@ -567,7 +567,7 @@ border-color: #4d5ae5;
 position: absolute;
 fill: transparent;
 stroke: #404040;
-left: 24px;
+left: 16px;
 top: 22px;
 top: 50%;
 transform: translateY(-50%)
@@ -576,3 +576,4 @@ transform: translateY(-50%)
 .modal-input-wrap {
     position: relative;
 }
+
