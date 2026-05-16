@@ -387,18 +387,34 @@
 <div class="modal">
 <button type="button" class="modal-close">X</button>
 <p class="title modal-title">Leave your contacts and we will call you back</p>
+<form class="modal-form">
+    <div class="modal-field">
+<label for="user-name" class="modal-label">Name</label>
 <input type="text" 
-     name="user-name" 
-     class="modal-input"
-     placeholder="enter name"/>
-<input type="email"  
-     name="user-email" 
-     class="modal-input" 
-     placeholder="enter email"/>
+name="user-name" 
+class="modal-input" 
+placeholder="enter name"
+required
+id="user-name"
+/>
+</div>
+
+
+
+<input type="email" 
+name="user-email" 
+class="modal-input" 
+placeholder="enter email"
+
+
+/>
 <input type="tel" 
-     name="user-tel" 
-     class="modal-input" 
-     placeholder="enter tel"/> 
+name="user-tel" 
+lass="modal-input" 
+placeholder="enter tel"
+required
+
+/>
 <button type="submit">Send</button>
 </div>
 </div>
