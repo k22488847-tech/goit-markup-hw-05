@@ -550,3 +550,10 @@ color: #434455;
     margin-bottom: 8px;
 
 }
+
+.modal-icon {
+ 
+position: absolute;
+fill: transparent;
+stroke: ;
+}
