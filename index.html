@@ -411,6 +411,23 @@ id="user-name"
 
 
 <div class="modal-check-field">
+<label for="user-phone" class="modal-label">Phone</label>
+<div class="modal-input-wrap">
+<input type="tel" 
+name="user-tel" 
+class="modal-input" 
+placeholder="enter tel*"
+id="user-phone"
+required
+/>
+<svg class="modal-icon" width="18" height="24">
+<use href="./images/icons.svg#icon-tel"></use>
+</svg>
+</div>
+</div>
+
+
+<div class="modal-check-field">
 <label for="user-email" class="modal-label">Email</label>
 <div class="modal-input-wrap">
 <input type="email" 
@@ -420,27 +437,13 @@ placeholder="enter email"
 id="user-email"
 />
 <svg class="modal-icon" width="18" height="24">
-<use href="./icons.svg#icon-email"></use>
+<use href="./images/icons.svg#icon-email"></use>
 </svg>
 </div>
 </div>
 
 
-<div class="modal-check-field">
-<label for="user-phone" class="modal-label">Phone</label>
-<div class="modal-input-wrap">
-<input type="tel" 
-name="user-tel" 
-class="modal-input" 
-placeholder="enter tel*"
-id="user-tel"
-required
-/>
-<svg class="modal-icon" width="18" height="24">
-<use href="./icons.svg#icon-tel"></use>
-</svg>
-</div>
-</div>
+
 
 <div class="modal-check-field">
 <label for="user-comment" class="modal-label">Comment</label>
@@ -451,17 +454,17 @@ class="modal-text"
 ></textarea>
 </div>
 <div class="modal-check-field">
- <input type="checkbox" 
- name="privacy" 
- required
-  id="privacy" 
-  class="modal-check visually-hidden"
-  
-  
-  />  
-  <label for="privacy" class="check-text"><span>
+<input 
+type="checkbox"
+id="user-privacy" 
+name="user-privacy" 
+required 
+value="true"
+class="modal-check visually-hidden"
+/>  
+  <label for="user-privacy" class="check-text"><span>
    <svg  class="modal-check-icon" width="10" height="8">
-    <use href="./icons.svg">  </use>
+    <use href="./images/icons.svg#icon-check"></use>
    </svg>
 
   </span>I accept the terms and conditions of the <a href="" class="check-link"> Privacy Policy</a></label>  
@@ -471,7 +474,6 @@ class="modal-text"
 <button type="submit" class="modal-btn">Send</button>
 
 </form>
-</div>
 </div>
 </div>
     
