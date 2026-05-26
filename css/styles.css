@@ -595,7 +595,8 @@ stroke: #404040;
 left: 16px;
 top: 50%;
 transform: translateY(-50%);
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+fill: #2e2f42; 
 }
 .modal-check-field {
   margin-bottom: 24px;
@@ -687,4 +688,3 @@ fill: transparent;
 
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-fill: transparent;
