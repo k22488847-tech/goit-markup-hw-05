@@ -486,7 +486,6 @@ color: #434455;
   padding: 100px 0;
 }
 
-
 .footer-container {
   display: flex;
   align-items: baseline;
@@ -513,6 +512,7 @@ color: #434455;
 .footer-logo-white {
   color: #f4f4fd;
 }
+
 
 .footer-text {
   max-width: 264px;
@@ -631,6 +631,7 @@ color: #434455;
 .subscribe-icon {
     margin-left: 16px;
 }
+
 .backdrop {
     position: fixed;
     top: 0;
